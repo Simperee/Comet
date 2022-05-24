@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "repl_python3_testing"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+docstring-parser = "^0.13"
+Flask = "^2.0.2"
+dinteractions-Paginator = "^1.5.1"
+"disease.py" = "^1.2.0"
+pycord-btns-menus = "^0.2.2"
+newsapi = "^0.1.1"
+requests = "^2.27.1"
+numpy = "^1.22.1"
+thecolorapi = "^1.0.0"
+sympy = "^1.9"
+discord-interactive = "^4.0"
+discord = "^1.7.3"
+"discord.py" = "^1.7.3"
+discord-py-slash-command = "^3.0.3"
+Google-Images-Search = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
